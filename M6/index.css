@@ -1,0 +1,96 @@
+#maindiv {
+    padding-left: 10%;
+    width: 45%;
+    align-items: center;
+    
+}
+#btn {
+	padding:10px;
+	padding-left:40%;
+	padding-right:40%;
+	color:white;
+	background-color:blue;
+	font-size:18px;
+	size:150px;
+	border: solid 3px blue;
+    
+}
+
+/* Popup container - can be anything you want */
+.popup {
+    position: relative;
+    display: inline-block;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+  
+/* The actual popup */
+.popup .popuptext {
+    visibility: hidden;
+    width: 650px;
+    height: 210px;
+    background-color: #555;
+    color: #fff;
+    text-align:justify;
+    
+    border-radius: 6px;
+    padding: 8px 0;
+    position: absolute;
+    z-index: 1;
+    top: 200%;
+    left: 100%;
+    margin-left: -80px;
+}
+  
+/* Popup arrow */
+.popup .popuptext::after {
+    content: "";
+    position: absolute;
+    bottom: 100%;
+    left: 1%;
+    margin-left: -5px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: #555 transparent transparent transparent;
+}
+  
+/* Toggle this class - hide and show the popup */
+  
+.popup .show {
+    visibility: visible;
+    -webkit-animation:none;
+    animation:forwards 1s;
+}
+  
+/* Add animation (fade in the popup) */
+@-webkit-keyframes fadeIn {
+    from {opacity: 0;} 
+    to {opacity: 1;}
+}
+  
+@keyframes fadeIn {
+    from {opacity: 0;}
+    to {opacity:1 ;}
+}
+
+#second_img {
+    float: left;
+    height: 80%;
+}
+
+#amenities {
+    
+    
+}
+#part2 {
+    width: 40%;
+    float: right;
+    top: 20%;
+    position:sticky;
+    top:30%;
+    left: 60%;
+}
+
